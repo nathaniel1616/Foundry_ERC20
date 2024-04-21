@@ -1,0 +1,98 @@
+Compiling 32 files with 0.8.20
+Solc 0.8.20 finished in 3.26s
+Compiler run [32msuccessful![0m
+Analysing contracts...
+Running tests...
+Uncovered for script/DeployOurToken.sol:
+- Function "run" (location: source ID 29, line 8, chars 198-278, hits: 0)
+- Line (location: source ID 29, line 9, chars 232-271, hits: 0)
+- Statement (location: source ID 29, line 9, chars 232-271, hits: 0)
+- Function "deployOurToken" (location: source ID 29, line 12, chars 284-664, hits: 0)
+- Line (location: source ID 29, line 17, chars 442-461, hits: 0)
+- Statement (location: source ID 29, line 17, chars 442-461, hits: 0)
+- Line (location: source ID 29, line 18, chars 471-535, hits: 0)
+- Statement (location: source ID 29, line 18, chars 471-535, hits: 0)
+- Statement (location: source ID 29, line 18, chars 491-535, hits: 0)
+- Line (location: source ID 29, line 19, chars 545-563, hits: 0)
+- Statement (location: source ID 29, line 19, chars 545-563, hits: 0)
+- Line (location: source ID 29, line 20, chars 573-632, hits: 0)
+- Statement (location: source ID 29, line 20, chars 573-632, hits: 0)
+- Line (location: source ID 29, line 21, chars 642-657, hits: 0)
+- Statement (location: source ID 29, line 21, chars 642-657, hits: 0)
+
+Uncovered for src/OurToken.sol:
+- Function "decimals" (location: source ID 30, line 21, chars 477-559, hits: 0)
+- Line (location: source ID 30, line 22, chars 544-552, hits: 0)
+- Statement (location: source ID 30, line 22, chars 544-552, hits: 0)
+
+Uncovered for test/OurTokenTest.t.sol:
+- Function "setUp" (location: source ID 31, line 7, chars 135-163, hits: 0)
+
+Anchors for Contract "console" (solc 0.8.20+commit.a1b79de6.Linux.gcc, source ID 15):
+
+Anchors for Contract "stdJson" (solc 0.8.20+commit.a1b79de6.Linux.gcc, source ID 7):
+
+Anchors for Contract "stdStorage" (solc 0.8.20+commit.a1b79de6.Linux.gcc, source ID 9):
+
+Anchors for Contract "stdStorageSafe" (solc 0.8.20+commit.a1b79de6.Linux.gcc, source ID 9):
+
+Anchors for Contract "OurTokenTest" (solc 0.8.20+commit.a1b79de6.Linux.gcc, source ID 31):
+- IC 185 -> Item 0
+  - Refers to item: Function "setUp" (location: source ID 31, line 7, chars 135-163, hits: 0)
+
+Anchors for Contract "console2" (solc 0.8.20+commit.a1b79de6.Linux.gcc, source ID 16):
+
+Anchors for Contract "stdToml" (solc 0.8.20+commit.a1b79de6.Linux.gcc, source ID 11):
+
+Anchors for Contract "MockERC20" (solc 0.8.20+commit.a1b79de6.Linux.gcc, source ID 21):
+
+Anchors for Contract "stdError" (solc 0.8.20+commit.a1b79de6.Linux.gcc, source ID 5):
+
+Anchors for Contract "StdStyle" (solc 0.8.20+commit.a1b79de6.Linux.gcc, source ID 10):
+
+Anchors for Contract "OurToken" (solc 0.8.20+commit.a1b79de6.Linux.gcc, source ID 30):
+- IC 753 -> Item 17
+  - Refers to item: Line (location: source ID 30, line 22, chars 544-552, hits: 0)
+- IC 308 -> Item 16
+  - Refers to item: Function "decimals" (location: source ID 30, line 21, chars 477-559, hits: 0)
+- IC 753 -> Item 18
+  - Refers to item: Statement (location: source ID 30, line 22, chars 544-552, hits: 0)
+
+Anchors for Contract "stdMath" (solc 0.8.20+commit.a1b79de6.Linux.gcc, source ID 8):
+
+Anchors for Contract "DeployOurToken" (solc 0.8.20+commit.a1b79de6.Linux.gcc, source ID 29):
+- IC 345 -> Item 6
+  - Refers to item: Statement (location: source ID 29, line 17, chars 442-461, hits: 0)
+- IC 823 -> Item 15
+  - Refers to item: Statement (location: source ID 29, line 21, chars 642-657, hits: 0)
+- IC 442 -> Item 7
+  - Refers to item: Line (location: source ID 29, line 18, chars 471-535, hits: 0)
+- IC 345 -> Item 5
+  - Refers to item: Line (location: source ID 29, line 17, chars 442-461, hits: 0)
+- IC 87 -> Item 4
+  - Refers to item: Function "deployOurToken" (location: source ID 29, line 12, chars 284-664, hits: 0)
+- IC 640 -> Item 12
+  - Refers to item: Line (location: source ID 29, line 20, chars 573-632, hits: 0)
+- IC 176 -> Item 2
+  - Refers to item: Line (location: source ID 29, line 9, chars 232-271, hits: 0)
+- IC 543 -> Item 11
+  - Refers to item: Statement (location: source ID 29, line 19, chars 545-563, hits: 0)
+- IC 176 -> Item 3
+  - Refers to item: Statement (location: source ID 29, line 9, chars 232-271, hits: 0)
+- IC 442 -> Item 8
+  - Refers to item: Statement (location: source ID 29, line 18, chars 471-535, hits: 0)
+- IC 444 -> Item 9
+  - Refers to item: Statement (location: source ID 29, line 18, chars 491-535, hits: 0)
+- IC 823 -> Item 14
+  - Refers to item: Line (location: source ID 29, line 21, chars 642-657, hits: 0)
+- IC 640 -> Item 13
+  - Refers to item: Statement (location: source ID 29, line 20, chars 573-632, hits: 0)
+- IC 543 -> Item 10
+  - Refers to item: Line (location: source ID 29, line 19, chars 545-563, hits: 0)
+- IC 75 -> Item 1
+  - Refers to item: Function "run" (location: source ID 29, line 8, chars 198-278, hits: 0)
+
+Anchors for Contract "safeconsole" (solc 0.8.20+commit.a1b79de6.Linux.gcc, source ID 23):
+
+Anchors for Contract "MockERC721" (solc 0.8.20+commit.a1b79de6.Linux.gcc, source ID 22):
+
