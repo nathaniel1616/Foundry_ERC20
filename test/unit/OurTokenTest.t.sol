@@ -2,8 +2,8 @@
 pragma solidity 0.8.20;
 
 import {Test, console} from "forge-std/Test.sol";
-import {DeployOurToken} from "../script/DeployOurToken.s.sol";
-import {OurToken} from "../src/OurToken.sol";
+import {DeployOurToken} from "../../script/DeployOurToken.s.sol";
+import {OurToken} from "../../src/OurToken.sol";
 import {IERC20Errors} from "@openzeppelin/contracts/interfaces/draft-IERC6093.sol";
 
 contract OurTokenTest is Test {
