@@ -1,4 +1,4 @@
-## Foundry
+****## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
@@ -48,13 +48,18 @@ $ anvil
 ### Deploy
 
 ```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
+$ forge script script/DeployOurToken.sol:DeployOurToken  --rpc-url <your_rpc_url> --private-key <your_private_key>
 ```
 
-### Cast
+#### Eg Deploying on anvil chain ,
+on the first terminal
+```shell
+$ anvil
+```
+open a new terminal,
 
 ```shell
-$ cast <subcommand>
+$ forge script script/DeployOurToken.sol:DeployOurToken  --rpc-url http://127.0.0.1:8545
 ```
 
 ### Help
